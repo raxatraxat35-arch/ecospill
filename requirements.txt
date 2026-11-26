@@ -1,0 +1,5 @@
+# Install the CUDA build of PyTorch first: https://pytorch.org/get-started/locally/
+# Then: pip install -r requirements.txt
+ultralytics==8.4.212
+roboflow
+opencv-python

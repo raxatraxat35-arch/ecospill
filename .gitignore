@@ -1,0 +1,13 @@
+data/
+.vscode/
+__pycache__/
+*.pyc
+yolov8s.pt
+yolo26s.pt
+runs/**/*.jpg
+runs/**/predict*/
+runs/**/last.pt
+*.mp4
+*.avi
+*.mov
+clean_water26

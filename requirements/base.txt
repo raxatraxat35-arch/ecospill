@@ -1,0 +1,11 @@
+# Preserve the Ultralytics version used by the existing project.
+ultralytics==8.4.212
+
+# Explicit direct import and matching torchvision dependency.
+# Select CPU/CUDA wheels before installing this file (see README.md).
+torch>=1.8.0,!=2.4.0
+torchvision>=0.9.0
+
+# GUI-enabled OpenCV supports the video scripts' show=True option.
+# Match the minimum/exclusion declared by Ultralytics 8.4.212.
+opencv-python>=4.7.0,!=4.13.0.90,<5

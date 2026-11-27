@@ -1,5 +1,7 @@
 data/
 .vscode/
+.venv/
+.venv-data/
 __pycache__/
 *.pyc
 yolov8s.pt

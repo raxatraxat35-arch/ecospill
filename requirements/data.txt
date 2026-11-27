@@ -1,0 +1,3 @@
+# Install in a separate .venv-data environment, not the main environment.
+# Roboflow pulls opencv-python-headless, which shares cv2 with opencv-python.
+roboflow==1.7.4
